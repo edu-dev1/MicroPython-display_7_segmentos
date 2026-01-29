@@ -193,7 +193,6 @@ def all_displays_on() ->  None:
 if __name__ == "__main__":
     display1 = Display(11, 10, 20, 21, 22, 9, 8, True) #Cátodo común
     display2 = Display(15, 14, 16, 19, 17, 13, 12, True) #Cátodo común
-    displays = [display1, display2]
 
     try:
         while True:
