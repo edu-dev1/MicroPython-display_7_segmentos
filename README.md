@@ -1,10 +1,10 @@
 # MicroPython-display_7_segmentos
-Display de 7 segmentos.
-A simple library for 7-segments Display.
+
+A simple MicroPython library for 7-segments Display.
 
 ## Features
--Easy to use.
--Compatible with ESP32 and Raspberry.
+- Easy to use.
+- Compatible with ESP32 and Raspberry.
 
 ## Example of usage
 ```python
