@@ -2,11 +2,11 @@
 Display de 7 segmentos.
 A simple library for 7-segments Display.
 
-#Features
+## Features
 -Easy to use.
 -Compatible with ESP32 and Raspberry.
 
-#Example of usage
+## Example of usage
 ```python
 from display import Display
 from time import sleep
