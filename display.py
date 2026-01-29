@@ -107,7 +107,7 @@ class Display:
            >>> d = Pin(2, Pin.OUT)
            >>> custom_char = [a, g, d]'''
         for segment in self.SEGMENTS:
-                    segment.value(self.state_on if segment in custom_char else self.state_off)
+            segment.value(self.state_on if segment in custom_char else self.state_off)
                     
     def display_off(self, segment:list[str]|str = 'all') -> None:
         '''Apaga todos los segmentos si no se especifica ninguno de estos.\n
