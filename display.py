@@ -9,8 +9,8 @@ class Display:
        El argumento `common_cathode` indica si el display
        es cátodo común (True) o ánodo común (False).\n
        Funciones extra disponibles para los objetos Display:
-            all_displays_on()
-            all_displays_off()'''
+       >>> \tall_displays_on()
+       >>> \tall_displays_off()'''
     __displays_counter = 0
     __list_of_displays = []
     def __init__(self, a:int, b:int, c:int, d:int, e:int, f:int, g:int, common_cathode = True):
@@ -96,7 +96,7 @@ class Display:
                         segment.value(self.state_on if segment in segments_on else self.state_off)
                     sleep(seconds)
         else:
-            raise ValueError("El argumento deve ser una cadena.")
+            raise ValueError("El argumento debe ser una cadena.")
         
     def print_custom_char(self, custom_char:list[Pin]) -> None:
         '''Muestra un caracter personalizado.\n
@@ -201,4 +201,5 @@ if __name__ == "__main__":
             all_displays_off()
             sleep(.5)
     except KeyboardInterrupt:
+
         all_displays_off()
